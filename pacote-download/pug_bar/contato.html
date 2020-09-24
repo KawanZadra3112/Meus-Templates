@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+<div class="menu_home">
+    <ul>
+        <li><a class="bd-rigth" href="home.html">Home</a></li>
+        <li><a class="bd-rigth" href="quemsomos.html">Quem Somos</a></li>
+        <li><a class="bd-rigth" href="cervejas.html">Nossas Cervejas</a></li>
+        <li><a class="bd-rigth" href="nossaestrutura.html">Nossa Estrutura</a></li>
+        <li><a class="active" href="contato.html">Contato</a></li>
+    </ul>
+</div>
+<form name="meu_form" class="meu_form">
+
+    <h1>Entre em contato</h1>
+
+    <p class="nome">
+        <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+    </p>
+    <p class="fone">
+        <input type="text" id="foneid" placeholder="Telefone" name="fone" />
+
+    </p>
+    <p>
+        <input type="email" id="emailid" placeholder="E-mail@hotmail.com" name="email" />
+    </p>
+    <p>
+        <textarea placeholder="Deixe sua opnião"></textarea>
+    </p>
+    <p class="submit">
+        <input type="submit" onclick="Enviar();" value="Enviar" />
+    </p>
+
+</form>
+</body>
+</html>

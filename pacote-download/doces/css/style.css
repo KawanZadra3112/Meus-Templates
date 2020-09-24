@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* MENU HOME */
+.menu_home{
+    width: 100%;
+    background-color: #472400;
+    color: white;
+}
+.menu_home ul{
+    text-align: center;
+    list-style: none;
+}
+
+.menu_home li{
+    display: inline-block;
+    padding: 20px
+}
+
+.menu_home a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu_home a:hover {
+    color: aquamarine;
+}
+/* FIM MENU HOME */
+
+/* HOME */
+
+.fundo_home{
+    background: url('../img/fundo_home.jpg') center center/100% fixed;
+}
+
+.home_textos{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px
+}
+
+.home_textos h1{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home_textos h3{
+    font-size: 30px;
+
+}
+/* FIM HOME */
+
+
+/* PÁGINA SOBRE */
+.fundo_sobre{
+    background: url('../img/fundo_granulado_rosa.png') center center/121px repeat pink;
+}
+
+.left_50{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 100px;
+    padding: 50px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.right_50{
+    width: 50%;
+    color: white;
+    float: right;
+    padding: 50px;
+    background-color: rgba(154, 22, 105, 0.9);
+}
+
+/* FIM PÁGINA SOBRE */
+
+
+/* PAGINA SABORES */
+
+.sabores_texto {
+    width: 950px;
+    padding: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dimgray{
+    color: white;
+    background-color: dimgrey;
+}
+
+.sabores_texto h1{
+    margin-bottom: 40px;
+}
+
+.sabores_33_porcento{
+    padding: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    float: left;
+    width: 33.33333333333333%;
+}
+
+/* FIM PAGINA SABORES */
+
+/* PAGINA QUEM FAZ */
+
+.fundo_quemsomos{
+    background: url('../img/fundo_quemfaz.jpg') center center/100% no-repeat;
+}
+
+.cinquenta_porcento_left{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px;
+    float: left;
+}
+
+.cinquenta_porcento_left h1{
+
+}
+.cinquenta_porcento_right{
+    padding: 100px;
+    float: right;
+    width: 50%;
+}
+
+/* FIM PAGINA QUEM FAZ */
+
+/* PAGINA FINAL */
+.galeria_imgs{
+    width: 33.33333333333333%;
+    float: left;
+}
+/* FIM FINAL */
+
+/* R Ó D A P É */
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.vinte_5{
+    width: 25%;
+    float: left;
+    color: white;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.vinte_5 h1{
+    cursor: context-menu;
+}
+
+.vinte_5 a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.vinte_5 a:hover {
+    color: orange;
+}
+
+/* F I M   R Ó D A P É */

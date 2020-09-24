@@ -1,0 +1,140 @@
+.padding{
+    padding: 30px;
+}
+
+textarea{
+    resize: none;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+.padding-top{
+    padding-top: 50px;
+}
+
+.padding-bottom{
+    padding:20px;
+}
+
+.menu{
+    font-size: 20px;
+}
+
+.menu a{text-decoration: none;}
+
+.menu  a:hover{
+    color:gray;
+}
+
+.menu .active {
+    padding: 6px;
+    border-bottom: 2px solid orange;
+}
+
+.container-fluid-img{
+    background: url("../img/fundo-inicio.jpg") center center/100% no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container p{
+    color: white;
+    width: 300px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container-fluid .container span{
+    font-size: 50px;
+    color: yellow;
+}
+
+.modalidades-container p {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.container-fluid .container button{
+    border-radius: 50px;
+    border: 3px solid yellow;
+}
+
+.container-fluid .container button:hover{
+    background-color: yellow;
+    color: blue;
+    transition-duration: 0.9s;
+}
+
+.fundo-bolvolbas{
+    background: url("../img/fundo-bolvolbas.jpg") center center/100% fixed;
+    height: 400px;
+}
+
+.footer-container h1{
+    font-size: 20px;
+}
+
+.bd-right{
+    border-right: 1px solid orange;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+.futebolpai p{
+    padding-top: 120px;
+}
+
+.futhover a:hover{
+    color: blue!important;
+}
+
+.icons-pg-inicio i{
+    font-size: 30px;
+}
+
+.mg-bottom{
+    margin-bottom: 30px;
+}
+
+.icone-check{
+    font-size: 100px;
+    color: green;
+}
+
+.bg-futebol{
+    background: url("../img/fundo-futebol.jpg") center center/100% no-repeat;
+}
+.bg-basquete{
+    background: url("../img/bg-basquete.jpg") center center/100% no-repeat;
+}
+.volei-bg{
+    background: url("../img/volei-bg.jpg") center center/100% no-repeat;
+}
+
+
+
+/*.footer-container p{*/
+/*    color: gray;*/
+/*    font-size: 16px;*/
+/*}*/

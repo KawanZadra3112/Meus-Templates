@@ -1,0 +1,331 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+img{
+    max-width: 100% ;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.bl-0 {
+    border-left: 1px solid transparent !important;
+}
+
+.bbt-0{
+    border-bottom: 0 !important;
+}
+
+.bt-0{
+    border-top: 0!important;
+}
+
+.br-0 {
+    border-right: 1px solid transparent !important;
+}
+
+/* TOPO SITE */
+
+.container {
+    width: 100%; 
+} 
+
+.standard {
+    max-width: 1200px;   
+    margin-left: 70px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.top_esq {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    padding: 0 0 0 60px;
+}
+
+.top_esq h1 {
+    font-weight: normal;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.top_esq h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    width: 500px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.top_esq h4 {
+    font-weight: normal;
+    border: 1px solid  #363636;
+    background-color:  #C0C0C0;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    float: left;    
+}
+
+.top_dir {
+    display: block;
+    width: 50%;
+    height: 500px;
+    background: url('../_img/montanhas.jpg') center center/100% no-repeat #363636; 
+    background-size: cover;
+    float: left;
+    
+}
+
+.top_dir:hover {
+opacity: 0.6;
+transition-duration:  2s;
+cursor: pointer;
+}
+
+.top_esq h4:hover {
+    background-color: #363636;
+    border-radius: 40px;
+    color: #C0C0C0;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.top_esq p {
+    width: 500px;
+    line-height: 30px;
+}
+
+/* FIM DO TOPO SITE */
+
+/* PARTE 02  DO  SITE */
+.pt2_site_esq {
+    background: url('../_img/middle_site.jpg') center center/100% no-repeat;
+    width: 50%;
+    float: left;
+    display: block;
+    height: 500px;
+}
+
+.pt2_site_esq:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition-duration: 1.5s;
+}
+
+.pt2_site_dir {
+    float: left;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pt2_site_dir h1 {
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.pt2_site_dir h4 {
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    border: 2px solid #363636;
+    border-radius: 40px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px;
+    background-color: gray;
+    
+}
+
+.pt2_site_dir h4:hover {
+    background-color: #363636;
+    border-radius: 30px;
+    transition-duration: 1.5s;
+    color: aqua;
+    cursor: pointer;
+}
+
+.pt2_site_dir p {
+    float: left;
+    margin-left: 40px;
+    line-height: 25px;
+}
+/* FIM PARTE 2 DO SITE */
+
+/* PARTE 3 SITE */
+.pt3_site_esq {
+width: 50%;
+margin-left: 30px;
+float: left;
+}
+
+.pt3_site_esq p {
+    line-height: 25px;
+    letter-spacing: 1.5 px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 500px;
+}
+
+.pt3_site_esq h1 {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+}
+
+.pt3_site_esq h4 {
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 2px solid #1C1C1C;
+    background-color: #808080;
+    border-radius: 30px;
+    display: inline-block;  
+    padding: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pt3_site_esq h4:hover {
+    cursor: pointer;
+    background-color: #4F4F4F;
+    border-radius: 40px;
+    transition-duration: 1.5s;
+    color: turquoise;
+}
+
+.pt3_site_dir {
+    width: 40%;
+    background: url('../_img/pt3_site.jpg') center center/100% no-repeat;
+    display: block;
+    height: 400px;
+    float: right;
+}
+
+.pt3_site_dir:hover{
+    opacity: 0.6;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    width: 600px;
+
+}
+/* FIM PARTE 3 DO SITE */
+
+/* PARTE 04 SITE */
+.pt4_site_esq {
+    background: url('../_img/p4_site.jpg') center center/100% no-repeat;
+    height: 400px;
+    float: left;
+    width: 50%;
+    display: block;
+}
+
+.pt4_site_esq:hover {
+    opacity: 0.6;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    width: 650px;
+}
+
+.pt4_site_dir {
+    margin-left: 50px;
+    width:calc(50% - 50px);
+    float: right;
+    padding: 30px;
+}
+
+.pt4_site_dir h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.pt4_site_dir p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.pt4_site_dir h4 {
+    margin-top: 10px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    padding: 18px;
+    display: inline-block;
+    border: 1px solid #708090;
+    background-color: #B0C4DE;
+    text-transform: uppercase;
+}
+
+.pt4_site_dir h4:hover {
+    background-color: #00FFFF;
+    color: white;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 3px gray;
+}
+/* FIM PARTE 04 SITE */
+
+/* PARTE 05 SITE */
+.pt_site_05 {
+    text-align: center;
+}
+
+.pt_site_05 h1 {
+    margin-bottom: 20px;
+}
+
+.pt_site_05 p {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+/* FIM PARTE 05 SITE */
+
+/* PARTE 06 SITE */
+
+.imgs_25 {
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+}
+
+
+
+/* FIM PARTE 06 SITE */
+/* ULTIMA PARTE SITE */
+
+.imgs_ptultima{
+    text-align: center;
+    width: 33.33333333333333%;
+    float: left;
+    padding: 40px;
+    border:  1px solid #CCC;
+}
+
+.imgs_ptultima img {
+    width: 80px;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    background-color: #f7f7f7;
+    float: left;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+/* FIM DA ULTIMA PARTE SITE */
+
